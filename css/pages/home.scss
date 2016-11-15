@@ -1,0 +1,37 @@
+.page--home {
+  // background-color: rgb(67, 165, 228);
+  background-image:url("../img/background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 92.9vh;
+
+  .home--content {
+  	text-align: center;
+  	color: white;
+	// .home--left {
+	// 	font-size:200%;
+	// 	text-align: center;
+	// }
+	// .home--right {
+	// 	font-size:200%;
+	// 	text-align: center;
+	// }
+	img {
+		display: block;
+	    margin: auto;
+	    padding-top:20%;
+	}
+	// .grad {
+ //    background: black; /* For browsers that do not support gradients */
+ //    background: -webkit-linear-gradient(#FFF,#000); For Safari 5.1 to 6.0
+ //    background: -o-linear-gradient(#FFF,#000); /* For Opera 11.1 to 12.0 */
+ //    background: -moz-linear-gradient(#FFF,#000); /* For Firefox 3.6 to 15 */
+ //    background: linear-gradient(#FFF,#000); /* Standard syntax */
+ //    height:100%;
+ //    opacity:20%;
+	// }
+  }
+}

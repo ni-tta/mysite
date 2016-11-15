@@ -4,6 +4,7 @@ import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 
 import 'css/_index.scss';
+import 'css/components/navigation.scss';
 
 export default class Template extends Component {
   render () {
@@ -23,6 +24,13 @@ export default class Template extends Component {
                 to={prefixLink('/about/')} className="navbar__link"
               >
                 About
+              </Link>
+            </div>
+            <div className="navbar__link--wrapper">
+              <Link
+                to={prefixLink('/work/')} className="navbar__link"
+              >
+                Work
               </Link>
             </div>
           </div>

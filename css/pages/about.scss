@@ -1,2 +1,65 @@
 // About
+.page--about{
+	// img {
+	// 	width:100%;
+	// }
+	.work--wrapper {
+    text-align: center;
+
+    .grid {
+      margin: 2%;
+      display: inline-block;
+
+      a.grid {
+        display: inline-block;
+        text-decoration: none;
+        height: 300px;
+        width: 300px;
+
+        .grid__work {
+          height: 300px;
+          width: 300px;
+          background-size: cover;
+        }
+
+        .work__explanation {
+          position: absolute;
+          display: inline-block;
+          width: 300px;
+          top: 0%;
+          left: 0;
+          padding: 0.2rem;
+          opacity: 0;
+          z-index: 2;
+          transition: opacity 250ms;
+
+          .work__explanation--name{
+            font-size: 1.75rem;
+          }
+
+          .work__explanation--description {
+            font-size: 1rem;
+            line-height: 1.25rem;
+            margin-top: 0.2rem;
+          }
+        }
+      }
+
+      &:hover,
+      &:focus {
+        .grid {
+          .work__details {
+            opacity: 1;
+          }
+        }
+
+        &::after {
+          top: 0;
+          height: 300px;
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}
 

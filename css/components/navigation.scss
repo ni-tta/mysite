@@ -1,0 +1,33 @@
+.nav{
+	  width: 100%;
+	  opacity: 0.1;
+	  // transition: max-height 250ms;
+	  overflow: hidden;
+	  text-align: center;
+	  // max-height: $s__navbar-height;
+	  background-color: white;
+
+	.navbar__link-wrapper{
+		margin: 0 auto;
+    	width: 95%;
+
+	    .navbar__link {
+	      text-decoration: none;
+	      //display: inline-block;
+	      color: #000;
+	      // line-height: $s__navbar-height;
+	      transition: color 250ms;
+	      padding-left: 2%;
+	      padding-right: 2%;
+	      margin: 0 15px;
+
+	      a {
+	      	display: inline-block;
+	      }
+
+	      &:hover {
+	        color: #0f0f0f;
+	      }
+	    } 
+	}
+}
