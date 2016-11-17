@@ -74,9 +74,9 @@ export default class About extends Component {
         <Helmet
           title={config.siteTitle}
         />
-        <h1>
+        <div className="page__title">
           About
-        </h1>
+        </div>
       </div>
     );
   }

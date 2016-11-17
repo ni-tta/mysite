@@ -12,14 +12,8 @@ export default class Work extends Component {
         <Helmet
           title={config.siteTitle}
         />
-        <h1>
+        <div className="page__title">
           Work
-        </h1>
-        <div className="col col--1">
-          <img src="me.jpg"></img>
-        </div>
-        <div className="col col--2">
-          lorum ipsum
         </div>
       </div>
     );

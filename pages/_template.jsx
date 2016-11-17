@@ -11,7 +11,23 @@ export default class Template extends Component {
     return (
       <div>
         <Headroom>
-          <div className="navbar">
+        <div className="navbar">
+          <div className="navbar__link--wrapper">
+              <Link
+                to={prefixLink('/work/')} className="navbar__link"
+              >
+                Work
+              </Link>
+          </div>
+          
+          <div className="navbar__link--wrapper">
+            <Link
+              to={prefixLink('/about/')} className="navbar__link"
+            >
+              About
+            </Link>
+          </div>
+          
             <div className="navbar__link--wrapper">
               <Link
                 to={prefixLink('/')} className="navbar__link"
@@ -19,20 +35,7 @@ export default class Template extends Component {
                 Home
               </Link>
             </div>
-            <div className="navbar__link--wrapper">
-              <Link
-                to={prefixLink('/about/')} className="navbar__link"
-              >
-                About
-              </Link>
-            </div>
-            <div className="navbar__link--wrapper">
-              <Link
-                to={prefixLink('/work/')} className="navbar__link"
-              >
-                Work
-              </Link>
-            </div>
+
           </div>
         </Headroom>
         <div className="content">

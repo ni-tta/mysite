@@ -61,8 +61,15 @@ export default class Home extends Component {
         <Helmet
           title={config.siteTitle}
         /> 
+        <div className="home--background"
+              style={{
+                background: `url(${prefixLink("/img/background.jpg")}) no-repeat center center`,
+                backgroundSize: 'cover'
+              }}
+            >
+            <img src={prefixLink("/img/logo.png")} alt="Catherine Ai Nitta" />
+        </div>
         <div className="home--content">
-          <img src="logo.png" alt="Catherine Ai Nitta" align="middle" ></img>
         </div>
       </div>
     );
