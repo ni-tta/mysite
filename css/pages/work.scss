@@ -1,3 +1,126 @@
 .page--work {
-  
-}
+	.grid--wrapper{
+		width:75%;
+		display: block;
+	  margin: auto;
+
+		 .grid {
+      	display: inline-block;
+      	
+				img{
+					width:100%;
+				}
+
+        &.grid--1 {
+					filter: grayscale(100%);
+          font-size: 20px;
+          width: 33%;
+          vertical-align: top;
+          text-align: center;
+					overflow:hidden;
+					padding:0.5%;
+				}
+
+				&.grid--2 {
+					filter: grayscale(100%);
+					font-size:20px;
+					width:33%;
+					vertical-align:top;
+					text-align: center;
+					overflow:hidden;
+					padding:0.5%;
+				}
+
+				&.grid--3 {
+					filter: grayscale(100%);
+					font-size:20px;
+					width:33%;
+					vertical-align:top;
+					text-align: center;
+					overflow:hidden;
+					padding:0.5%;
+				}
+			}
+		}
+	}
+
+        // .work__explanation {
+        //   position: absolute;
+        //   display: inline-block;
+        //   width: 300px;
+        //   top: 0%;
+        //   left: 0;
+        //   padding: 0.2rem;
+        //   opacity: 0;
+        //   z-index: 2;
+        //   transition: opacity 250ms;
+
+        //   .work__explanation--name{
+        //     font-size: 1.75rem;
+        //   }
+
+        //   .work__explanation--description {
+        //     font-size: 1rem;
+        //     line-height: 1.25rem;
+        //     margin-top: 0.2rem;
+        //   }
+        // }	
+ 
+// .work--wrapper {
+//     text-align: center;
+
+//     .grid {
+//       margin: 2%;
+//       display: inline-block;
+
+//       a.grid {
+//         display: inline-block;
+//         text-decoration: none;
+//         height: 300px;
+//         width: 300px;
+
+//         .grid__work {
+//           height: 300px;
+//           width: 300px;
+//           background-size: cover;
+//         }
+
+//         .work__explanation {
+//           position: absolute;
+//           display: inline-block;
+//           width: 300px;
+//           top: 0%;
+//           left: 0;
+//           padding: 0.2rem;
+//           opacity: 0;
+//           z-index: 2;
+//           transition: opacity 250ms;
+
+//           .work__explanation--name{
+//             font-size: 1.75rem;
+//           }
+
+//           .work__explanation--description {
+//             font-size: 1rem;
+//             line-height: 1.25rem;
+//             margin-top: 0.2rem;
+//           }
+//         }
+//       }
+
+//       &:hover,
+//       &:focus {
+//         .grid {
+//           .work__details {
+//             opacity: 1;
+//           }
+//         }
+
+//         &::after {
+//           top: 0;
+//           height: 300px;
+//           opacity: 0.6;
+//         }
+//       }
+//     }
+//   }

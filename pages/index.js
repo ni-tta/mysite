@@ -7,53 +7,6 @@ import { prefixLink } from 'gatsby-helpers';
 import $ from 'jquery';
 import _ from 'lodash';
 
-// export default class Index extends React.Component {
-//   constructor(props) {
-//     super(props);
-//   }
-
-//   componentDidMount() {}
-
-//   render () {
-//     const data = [
-//       {
-//         name: 'Christian Kitty',
-//         title: 'Senior Executive Advisor'
-//       },
-//       {
-//         name: 'Julia Kitty',
-//         title: 'Kitty'
-//       },
-//       {
-//         name: 'Cow Kitty',
-//         title: 'Cow'
-//       },
-//       {
-//         name: 'Bunny Kitty',
-//         title: 'Bunny'
-//       }
-//     ];
-
-//     const peopleElements = _.map(data, (person, index) => {
-//       return (
-//         <div
-//           key={ `personElem-${index}` }
-//           className="person__wrapper"
-//         >
-//           <div className="col col--1">
-//             { person.name }
-//           </div>
-//           <div className="col col--2">
-//             { person.title }
-//           </div>
-//         </div>
-//       );
-//     });
- // <div className="repeating">
- //          { peopleElements }
- //        </div>
-  // <div className="grad"></div>
- // 
 export default class Home extends Component {
   render () {
     return (
@@ -67,7 +20,7 @@ export default class Home extends Component {
                 backgroundSize: 'cover'
               }}
             >
-            <img src={prefixLink("/img/logo.png")} alt="Catherine Ai Nitta" />
+            <img src={prefixLink("/img/logo.png")} alt="" />
         </div>
         <div className="home--content">
         </div>
