@@ -7,9 +7,6 @@ import { prefixLink } from 'gatsby-helpers';
 import $ from 'jquery';
 import _ from 'lodash';
 
-setTimeout(function() {
-  document.getElementById('animated').style.display='none'
-}, 10*1000);
 
 export default class Home extends Component {
   render () {
