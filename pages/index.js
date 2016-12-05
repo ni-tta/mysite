@@ -7,6 +7,10 @@ import { prefixLink } from 'gatsby-helpers';
 import $ from 'jquery';
 import _ from 'lodash';
 
+setTimeout(function() {
+  document.getElementById('animated').style.display='none'
+}, 10*1000);
+
 export default class Home extends Component {
   render () {
     return (
@@ -15,14 +19,11 @@ export default class Home extends Component {
           title={config.siteTitle}
         /> 
         <div className="home--background"
-              style={{
-                background: `url(${prefixLink("/img/background.jpg")}) no-repeat center center`,
-                backgroundSize: 'cover'
-              }}
             >
-            <img src={prefixLink("/img/logo.png")} alt="" />
-        </div>
-        <div className="home--content">
+            <div className="center">
+            <img src={prefixLink("/img/logo.png")} alt="" className="static"/>
+            <img src={prefixLink("/img/ai.svg")} alt="" className="animated"/>
+            </div>
         </div>
       </div>
     );

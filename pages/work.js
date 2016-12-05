@@ -83,25 +83,25 @@ export default class Work extends Component {
         </div>
         <div className="grid--wrapper">
           <div className="grid grid--1">
-            <img src="/img/watch.png"/>
+            <img src={prefixLink("/img/watch.png")}/>
           </div>
           <div className="grid grid--2">
-            <img src="/img/photo.png"/>
+            <img src={prefixLink("/img/photo.png")}/>
           </div>
           <div className="grid grid--3">
-            <img src="/img/personal.png"/>
+            <img src={prefixLink("/img/personal.png")}/>
           </div>
           <div className="grid grid--1">
-            <img src="/img/inthenews.png"/>
+            <img src={prefixLink("/img/inthenews.png")}/>
           </div>
           <div className="grid grid--2">
-            <img src="/img/oppia.png"/>
+            <img src={prefixLink("/img/oppia.png")}/>
           </div>
           <div className="grid grid--3">
-            <img src="/img/port_logo.png"/>
+            <img src={prefixLink("/img/port_logo.png")}/>
           </div>
-          <div className="grid grid--1">
-            <img src="/img/painting.png"/>
+          <div className="grid grid--center">
+            <img src={prefixLink("/img/painting.png")}/>
           </div>
         </div>
       </div>
